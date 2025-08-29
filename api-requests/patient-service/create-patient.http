@@ -1,0 +1,13 @@
+### Create a new patient entity
+POST http://localhost:8080/patients
+Content-type: application/json
+
+{
+  "name": "Bansi Patel",
+  "email": "test@gmail.com",
+  "address": "123 123 masm",
+  "dateOfBirth": "1995-09-09",
+  "registeredDate": "2024-11-28"
+}
+
+###
