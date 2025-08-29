@@ -1,0 +1,14 @@
+### PUT REQUEST TO UPDATE a patient
+PUT http://localhost:8080/api/v1/patients/
+Content-type: application/json
+
+{
+  "name": "Bansi Patel",
+  "email": "test1@gmail.com",
+  "address": "123 123 masm",
+  "dateOfBirth": "1995-09-09",
+  "registeredDate": "2024-11-28"
+}
+
+
+###
